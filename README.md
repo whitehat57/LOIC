@@ -37,3 +37,28 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 ```bash
 source ~/.bashrc
 ```
+
+Instal Golang versi terbaru di Ubuntu / VPS, kamu bisa mengikuti langkah berikut:
+
+1. Unduh Golang Versi Terbaru (Misalnya 1.23)
+Kunjungi halaman unduhan Golang dan temukan tautan untuk Golang versi terbaru. Jika versi 1.23 sudah dirilis, unduh dengan perintah seperti ini (ganti 1.23 dengan versi yang sesuai):
+```bash
+wget https://go.dev/dl/go1.23.2.linux-amd64.tar.gz
+```
+2. Ekstrak dan Install
+Setelah diunduh, ekstrak file tarball ke /usr/local:
+```bash
+sudo tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+```
+3. Atur PATH
+Tambahkan direktori bin Go ke PATH di .profile atau .bashrc:
+```bash
+export PATH=$PATH:/usr/local/go/bin
+```
+Jalankan source ~/.profile atau source ~/.bashrc untuk menerapkan perubahan.
+
+4. Cek Instalasi
+Periksa versi Go yang terinstal dengan menjalankan:
+```bash
+go version
+```
