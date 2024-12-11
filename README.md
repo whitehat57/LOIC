@@ -38,7 +38,7 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 source ~/.bashrc
 ```
 
-Instal Golang versi terbaru di Ubuntu / VPS, kamu bisa mengikuti langkah berikut:
+# Instal Golang versi terbaru di Ubuntu / VPS, kamu bisa mengikuti langkah berikut:
 
 1. Unduh Golang Versi Terbaru (Misalnya 1.23)
 Kunjungi halaman unduhan Golang dan temukan tautan untuk Golang versi terbaru. Jika versi 1.23 sudah dirilis, unduh dengan perintah seperti ini (ganti 1.23 dengan versi yang sesuai):
